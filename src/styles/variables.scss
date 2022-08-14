@@ -9,15 +9,16 @@ $yellow:#FEC171;
 $panGreen: #30B08F;
 
 // sidebar
-$menuText:#bfcbd9;
-$menuActiveText:#409EFF;
-$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+$menuText: #ffffffd2; //#bfcbd9;
+$menuActiveText: #00e1ffde; // #409EFF;
+$subMenuActiveText:#00e1ffde; // https://github.com/ElemeFE/element/issues/12951
 
-$menuBg:#304156;
-$menuHover:#263445;
+$menuBg: #0a175d25;//rgba(11, 78, 133, 0.1);//#336699; // #304156;
+// 悬浮时菜单的颜色
+$menuHover: #98c8f78e; // #263445;
 
-$subMenuBg:#1f2d3d;
-$subMenuHover:#001528;
+$subMenuBg: #0a175d9a;//rgb(159, 203, 247);//#1f2d3d;
+$subMenuHover: #98c8f78e; //#001528;
 
 $sideBarWidth: 210px;
 

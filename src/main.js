@@ -14,7 +14,21 @@ import App from './App'
 import store from './store'
 import router from './router'
 
-import aMap from 'vue-amap'
+// import aMap from 'vue-amap'
+
+import VueAMap from '@vuemap/vue-amap';
+import '@vuemap/vue-amap/dist/style.css'
+Vue.use(VueAMap);
+VueAMap.initAMapApiLoader({
+  key: 'c0a89b1e51b7db060a0a69b435ded806',
+  v: '1.4.4', //版本
+  uiVersion: '1.0', //ui版本
+  securityJsCode: '47c8354058245520b3c15d5de2284431'
+});
+// VueAMap._AMapSecurityConfig = {
+//   securityJsCode: '47c8354058245520b3c15d5de2284431'
+// }
+
 
 import './icons' // icon
 import './permission' // permission control
@@ -40,14 +54,14 @@ Vue.use(Element, {
   // locale: enLang // 如果使用中文，无需设置，请删除
 })
 
-Vue.use(aMap)
+// Vue.use(aMap)
 
-aMap.initAMapApiLoader({
-  key: 'c0a89b1e51b7db060a0a69b435ded806',  // 你的key
-  plugin: ['AMap.Autocomplete', 'AMap.PlaceSearch','AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.Geolocation','AMap.Geocoder', 'AMap.AMapManager', 'AMap.Marker'],//应用功能项
-  v: '1.4.4', //版本
-  uiVersion: '1.0' //ui版本
-})
+// aMap.initAMapApiLoader({
+//   key: 'c0a89b1e51b7db060a0a69b435ded806',  // 你的key
+//   plugin: ['AMap.Autocomplete', 'AMap.PlaceSearch','AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.Geolocation','AMap.Geocoder', 'AMap.AMapManager', 'AMap.Marker'],//应用功能项
+//   v: '1.4.4', //版本
+//   uiVersion: '1.0' //ui版本
+// })
 
 // register global utility filters
 Object.keys(filters).forEach(key => {

@@ -36,6 +36,28 @@ module.exports = {
       warnings: false,
       errors: true
     },
+    // proxyTable: {
+    //   '/api': {
+    //     target: "http://10.20.145.42:8089",
+    //     changeOrigin: true,
+    //     pathRewrite: {
+    //       '^/api'
+    //     }
+    //   }
+    // },
+    proxy: {
+      '/api1': {													// 匹配所有以 '/api1'开头的请求路径
+        target: 'http://localhost:8089',	// 代理目标的基础路径
+        pathRewrite: {'^/api1':''},				// 代理往后端服务器的请求去掉 /api1 前缀
+        ws: false,													// WebSocket
+        changeOrigin: true,  
+      }
+    },
+    /*
+       changeOrigin设置为true时，服务器收到的请求头中的host为：localhost:5000
+       changeOrigin设置为false时，服务器收到的请求头中的host为：localhost:8080
+       changeOrigin默认值为true
+    */
     before: require('./mock/mock-server.js')
   },
   configureWebpack: {

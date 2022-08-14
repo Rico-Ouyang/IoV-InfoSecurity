@@ -1,16 +1,19 @@
 #app {
 
   .main-container {
+    
     min-height: 100%;
     transition: margin-left .28s;
     margin-left: $sideBarWidth;
     position: relative;
   }
 
+  // 左侧菜单容器
   .sidebar-container {
     transition: width 0.28s;
     width: $sideBarWidth !important;
     background-color: $menuBg;
+    background-image: url('../assets/background.png');
     height: 100%;
     position: fixed;
     font-size: 0px;
@@ -94,6 +97,7 @@
   .hideSidebar {
     .sidebar-container {
       width: 54px !important;
+      background-color: #0a175dc7;
     }
 
     .main-container {
@@ -136,6 +140,7 @@
         }
       }
     }
+    
 
     .el-menu--collapse {
       .el-submenu {

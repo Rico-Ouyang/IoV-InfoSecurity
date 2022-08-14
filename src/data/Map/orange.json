@@ -1,0 +1,2124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.79968, 22.762185]
+            },
+            "properties": {
+                "name": "松福大道与新和路路口",
+                "value": 94.96079272,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.806098, 22.675235]
+            },
+            "properties": {
+                "name": "福洲大道与宝安大道路口",
+                "value": 81.29994202,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.809795, 22.686205]
+            },
+            "properties": {
+                "name": "宝安大道与桥和路路口",
+                "value": 93.83305419,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.820101, 22.649373]
+            },
+            "properties": {
+                "name": "机场七道与航站四路路口",
+                "value": 85.574926,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.822554, 22.670375]
+            },
+            "properties": {
+                "name": "政丰北路与政丰南路路口",
+                "value": 71.89721307,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.841596, 22.809049]
+            },
+            "properties": {
+                "name": "雄宇路与塘下涌工业大道路口",
+                "value": 83.43751922,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.847181, 22.768907]
+            },
+            "properties": {
+                "name": "松明大道与１０７国道辅路路口",
+                "value": 90.86323672,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.855472, 22.568836]
+            },
+            "properties": {
+                "name": "兴业路与悦和路路口",
+                "value": 85.7806583,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.857963, 22.566794]
+            },
+            "properties": {
+                "name": "兴业路与西乡大道路口",
+                "value": 75.68762318,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.860047, 22.759377]
+            },
+            "properties": {
+                "name": "东方大道与松岗大道路口",
+                "value": 71.7757885,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.863585, 22.62451]
+            },
+            "properties": {
+                "name": "洲石路与北二路路口",
+                "value": 86.36271913,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.88837, 22.561612]
+            },
+            "properties": {
+                "name": "裕安一路与宝安大道路口",
+                "value": 77.8661566,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.890186, 22.798817]
+            },
+            "properties": {
+                "name": "河堤路与富利路路口",
+                "value": 78.74531663,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.894133, 22.715408]
+            },
+            "properties": {
+                "name": "玉昌西路与玉园西路路口",
+                "value": 76.26166846,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.898873, 22.582151]
+            },
+            "properties": {
+                "name": "公园路与新安四路路口",
+                "value": 87.19461316,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.904136, 22.568949]
+            },
+            "properties": {
+                "name": "前进一路与创业二路路口",
+                "value": 89.70903707,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.905948, 22.515821]
+            },
+            "properties": {
+                "name": "前湾一路与东滨路路口",
+                "value": 100.6630984,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.909638, 22.532098]
+            },
+            "properties": {
+                "name": "月亮湾大道与桂湾四路路口",
+                "value": 87.19720747,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.914087, 22.577564]
+            },
+            "properties": {
+                "name": "大宝路与创业二路路口",
+                "value": 72.35893178,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.914621, 22.541586]
+            },
+            "properties": {
+                "name": "深南大道与前海路路口",
+                "value": 102.9100387,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.916242, 22.655514]
+            },
+            "properties": {
+                "name": "塘头大道与塘和七路路口",
+                "value": 97.58500512,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.918891, 22.672258]
+            },
+            "properties": {
+                "name": "塘头大道与洲石路路口",
+                "value": 77.25673445,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.920009, 22.650308]
+            },
+            "properties": {
+                "name": "塘头大道与松白路路口",
+                "value": 92.2357443,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.923025, 22.585322]
+            },
+            "properties": {
+                "name": "留仙三路与留仙村路路口",
+                "value": 84.50280495,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.933623, 22.568509]
+            },
+            "properties": {
+                "name": "茶光路与中山园路路口",
+                "value": 74.80702703,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.937418, 22.689659]
+            },
+            "properties": {
+                "name": "坑尾大道与石岩北环路路口",
+                "value": 76.55649418,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.949956, 22.532766]
+            },
+            "properties": {
+                "name": "白石路与科技南路路口",
+                "value": 84.36330436,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.954678, 22.587802]
+            },
+            "properties": {
+                "name": "沙河西路与无名道路路口",
+                "value": 105.9088559,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.964627, 22.540259]
+            },
+            "properties": {
+                "name": "深南大道与沙河东路路口",
+                "value": 102.0994092,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.991828, 22.689952]
+            },
+            "properties": {
+                "name": "华宁路与浪荣路路口",
+                "value": 76.13864662,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.002172, 22.666695]
+            },
+            "properties": {
+                "name": "华荣路与大浪华达路路口",
+                "value": 83.06407293,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.008079, 22.658302]
+            },
+            "properties": {
+                "name": "龙观路与龙胜路路口",
+                "value": 72.88948175,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.008917, 22.596466]
+            },
+            "properties": {
+                "name": "长岭一号路与留仙大道路口",
+                "value": 75.21670096,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.012966, 22.65812]
+            },
+            "properties": {
+                "name": "工业路与爱民路路口",
+                "value": 71.96043631,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.029792, 22.668659]
+            },
+            "properties": {
+                "name": "清泉路与龙观大道路口",
+                "value": 80.19087097,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.03063, 22.627898]
+            },
+            "properties": {
+                "name": "民安路与中梅路路口",
+                "value": 74.53519928,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.037226, 22.631415]
+            },
+            "properties": {
+                "name": "民治大道与布龙路路口",
+                "value": 97.931008,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.042139, 22.614624]
+            },
+            "properties": {
+                "name": "民治大道与民康路路口",
+                "value": 71.58924401,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.042345, 22.664284]
+            },
+            "properties": {
+                "name": "清龙路与梅龙大道路口",
+                "value": 82.87878947,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.045847, 22.616515]
+            },
+            "properties": {
+                "name": "民康路与民丰路路口",
+                "value": 93.46941406,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.048736, 22.712934]
+            },
+            "properties": {
+                "name": "观澜大道与民和路路口",
+                "value": 74.75114154,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.049705, 22.690488]
+            },
+            "properties": {
+                "name": "环观南路与大和路路口",
+                "value": 75.07680329,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.059266, 22.605533]
+            },
+            "properties": {
+                "name": "五和大道与梅坂大道路口",
+                "value": 79.01572223,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.067716, 22.636279]
+            },
+            "properties": {
+                "name": "吉华路与坂雪岗大道路口",
+                "value": 97.96819412,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.072213, 22.620238]
+            },
+            "properties": {
+                "name": "坂雪岗大道与永香路路口",
+                "value": 81.64364688,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.072999, 22.548318]
+            },
+            "properties": {
+                "name": "红荔路与皇岗路路口",
+                "value": 75.63095563,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.073051, 22.544925]
+            },
+            "properties": {
+                "name": "皇岗路与振华西路路口",
+                "value": 100.1123148,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.076004, 22.711699]
+            },
+            "properties": {
+                "name": "观平路与五和大道路口",
+                "value": 92.82835974,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.079952, 22.626758]
+            },
+            "properties": {
+                "name": "布龙路与环城南路路口",
+                "value": 96.21406011,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.082425, 22.641926]
+            },
+            "properties": {
+                "name": "吉华路与环城路路口",
+                "value": 92.47459334,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.092984, 22.699411]
+            },
+            "properties": {
+                "name": "观平路与平龙路路口",
+                "value": 104.3162348,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.0962, 22.549087]
+            },
+            "properties": {
+                "name": "红荔路与上步路路口",
+                "value": 96.69638793,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.111199, 22.543639]
+            },
+            "properties": {
+                "name": "解放路与宝安南路路口",
+                "value": 91.18913538,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.112537, 22.563984]
+            },
+            "properties": {
+                "name": "梅园路与宝岗路路口",
+                "value": 74.73089748,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.120047, 22.650739]
+            },
+            "properties": {
+                "name": "甘李三路交叉口",
+                "value": 103.5219013,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.120341, 22.550989]
+            },
+            "properties": {
+                "name": "人民北路与新园路路口",
+                "value": 94.37569505,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.129969, 22.567314]
+            },
+            "properties": {
+                "name": "田贝四路与翠竹路路口",
+                "value": 90.22182992,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.13433, 22.682614]
+            },
+            "properties": {
+                "name": "富安大道与平安大道路口",
+                "value": 95.8473253,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.144092, 22.694531]
+            },
+            "properties": {
+                "name": "凤凰大道与高原路路口",
+                "value": 82.39081736,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.144577, 22.624703]
+            },
+            "properties": {
+                "name": "红棉路与东西干道路口",
+                "value": 85.68434971,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.198794, 22.650524]
+            },
+            "properties": {
+                "name": "四联路与红棉二路路口",
+                "value": 73.43702815,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.20667, 22.646557]
+            },
+            "properties": {
+                "name": "龙岗大道与松柏路路口",
+                "value": 75.97856717,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.218028, 22.731027]
+            },
+            "properties": {
+                "name": "盐龙大道辅路与黄阁路路口",
+                "value": 94.56436975,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.219375, 22.6618]
+            },
+            "properties": {
+                "name": "龙岗大道与新横坪公路辅路路口",
+                "value": 107.2682104,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.220999, 22.667139]
+            },
+            "properties": {
+                "name": "龙岗大道与坳背路路口",
+                "value": 73.44347947,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.223316, 22.661509]
+            },
+            "properties": {
+                "name": "无名道路与新横坪公路辅路路口",
+                "value": 104.3813633,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.249659, 22.593282]
+            },
+            "properties": {
+                "name": "东海道与永安路路口",
+                "value": 100.5465097,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.25254, 22.716341]
+            },
+            "properties": {
+                "name": "龙岗大道与龙城大道路口",
+                "value": 94.48290292,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.313289, 22.777238]
+            },
+            "properties": {
+                "name": "龙岗大道与富坪中路路口",
+                "value": 89.49440539,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.355911, 22.71732]
+            },
+            "properties": {
+                "name": "丹梓大道与坪山大道路口",
+                "value": 88.11313348,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.359508, 22.686295]
+            },
+            "properties": {
+                "name": "龙坪路与东纵路路口",
+                "value": 93.11225379,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.811118, 22.663581]
+            },
+            "properties": {
+                "name": "宝安大道与福永大道路口",
+                "value": 84.23905798,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.815694, 22.713924]
+            },
+            "properties": {
+                "name": "南环路与宝安大道路口",
+                "value": 87.07613308,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.856572, 22.795712]
+            },
+            "properties": {
+                "name": "燕山大道与洋涌路路口",
+                "value": 92.15233646,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.857048, 22.744454]
+            },
+            "properties": {
+                "name": "芙蓉路与松岗大道路口",
+                "value": 76.38466173,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.861612, 22.570579]
+            },
+            "properties": {
+                "name": "宝源路与西乡大道路口",
+                "value": 83.75097332,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.862543, 22.550968]
+            },
+            "properties": {
+                "name": "辅二路与辅八路路口",
+                "value": 75.99052347,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.87131, 22.782274]
+            },
+            "properties": {
+                "name": "公明西环大道与松白路路口",
+                "value": 74.46696351,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.889199, 22.583842]
+            },
+            "properties": {
+                "name": "前进二路与流塘路路口",
+                "value": 95.58967728,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.889413, 22.73569]
+            },
+            "properties": {
+                "name": "光明大道与根玉路路口",
+                "value": 97.96584322,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.894444, 22.56073]
+            },
+            "properties": {
+                "name": "创业一路与翻身路路口",
+                "value": 89.09591347,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.895058, 22.581302]
+            },
+            "properties": {
+                "name": "新安四路与锦花路路口",
+                "value": 71.55414546,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.897547, 22.67212]
+            },
+            "properties": {
+                "name": "洲石路与料坑大道路口",
+                "value": 101.3409228,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.899496, 22.550918]
+            },
+            "properties": {
+                "name": "宝安大道与新安西路路口",
+                "value": 76.02907032,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.905166, 22.510235]
+            },
+            "properties": {
+                "name": "前海路与沿湖路路口",
+                "value": 71.945,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.911974, 22.780934]
+            },
+            "properties": {
+                "name": "公常路与公明北环大道路口",
+                "value": 80.41985603,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.915651, 22.578918]
+            },
+            "properties": {
+                "name": "留仙一路与创业二路路口",
+                "value": 81.49939025,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.919623, 22.523914]
+            },
+            "properties": {
+                "name": "桂庙路与南新路路口",
+                "value": 99.92866644,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.920451, 22.587996]
+            },
+            "properties": {
+                "name": "宝石公路辅路与宝石路辅路路口",
+                "value": 84.18870494,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.923509, 22.524075]
+            },
+            "properties": {
+                "name": "滨海大道与桂庙路路口",
+                "value": 91.40709613,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.923696, 22.504827]
+            },
+            "properties": {
+                "name": "东滨路与南海大道路口",
+                "value": 88.78632856,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.923901, 22.540115]
+            },
+            "properties": {
+                "name": "深南大道与南山大道路口",
+                "value": 72.42839557,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.925138, 22.664275]
+            },
+            "properties": {
+                "name": "国泰路与松白路路口",
+                "value": 101.4681504,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.926925, 22.781557]
+            },
+            "properties": {
+                "name": "楼新四路与绘猫路路口",
+                "value": 99.68358298,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.92983, 22.581425]
+            },
+            "properties": {
+                "name": "同乐路与留仙大道路口",
+                "value": 92.68964584,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.933659, 22.748599]
+            },
+            "properties": {
+                "name": "观光路与光明大道路口",
+                "value": 99.16351129,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.935204, 22.525066]
+            },
+            "properties": {
+                "name": "后海大道与高新南十道路口",
+                "value": 71.63802289,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.943603, 22.763274]
+            },
+            "properties": {
+                "name": "光明大街与光明大道路口",
+                "value": 70.91765646,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.953937, 22.540242]
+            },
+            "properties": {
+                "name": "科技南十路与铜鼓路路口",
+                "value": 84.36016081,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.955591, 22.535576]
+            },
+            "properties": {
+                "name": "高新南四道与科技南十二路路口",
+                "value": 76.722628,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.956739, 22.534954]
+            },
+            "properties": {
+                "name": "高新南四道与沙河西路路口",
+                "value": 78.13013451,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.964428, 22.683867]
+            },
+            "properties": {
+                "name": "石观路与石龙仔路路口",
+                "value": 80.4764722,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.968073, 22.705658]
+            },
+            "properties": {
+                "name": "石岩外环路与民营三路路口",
+                "value": 81.68315728,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [113.975761, 22.693827]
+            },
+            "properties": {
+                "name": "华宁路与石岩外环路路口",
+                "value": 74.34626827,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.015041, 22.555171]
+            },
+            "properties": {
+                "name": "北环大道辅路与安托山九路路口",
+                "value": 72.508316,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.017261, 22.540115]
+            },
+            "properties": {
+                "name": "建业三街与红荔西路路口",
+                "value": 72.72422018,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.021562, 22.663292]
+            },
+            "properties": {
+                "name": "龙观大道与东环一路路口",
+                "value": 74.00236941,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.028329, 22.671347]
+            },
+            "properties": {
+                "name": "清泉路与建辉路路口",
+                "value": 78.22663904,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.031775, 22.726002]
+            },
+            "properties": {
+                "name": "桂香路与观兴东路路口",
+                "value": 74.03723637,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.032746, 22.642138]
+            },
+            "properties": {
+                "name": "工业路与梅龙大道路口",
+                "value": 75.41043044,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.032829, 22.620701]
+            },
+            "properties": {
+                "name": "梅龙大道与民旺路路口",
+                "value": 76.3060308,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.037037, 22.645862]
+            },
+            "properties": {
+                "name": "东环一路与梅龙大道路口",
+                "value": 71.50928154,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.039545, 22.545361]
+            },
+            "properties": {
+                "name": "红荔西路与香梅路路口",
+                "value": 76.65535601,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.042642, 22.596423]
+            },
+            "properties": {
+                "name": "金龙路与新区大道路口",
+                "value": 107.9081021,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.04501, 22.671819]
+            },
+            "properties": {
+                "name": "石清大道与梅龙大道路口",
+                "value": 106.5747708,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.047387, 22.600108]
+            },
+            "properties": {
+                "name": "梅龙路与梅坂大道路口",
+                "value": 104.3736821,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.048591, 22.702049]
+            },
+            "properties": {
+                "name": "观澜人民路与大和路路口",
+                "value": 72.99687988,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.049333, 22.547874]
+            },
+            "properties": {
+                "name": "红荔西路与新洲路路口",
+                "value": 106.0598431,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.050833, 22.635737]
+            },
+            "properties": {
+                "name": "工业路与吉华路路口",
+                "value": 102.0510128,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.056005, 22.515458]
+            },
+            "properties": {
+                "name": "福强路与益田路路口",
+                "value": 72.62393047,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.059757, 22.664546]
+            },
+            "properties": {
+                "name": "雪岗北路与五和大道路口",
+                "value": 94.59736683,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.066375, 22.641648]
+            },
+            "properties": {
+                "name": "贝尔路与坂雪岗大道路口",
+                "value": 75.69448896,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.067902, 22.544818]
+            },
+            "properties": {
+                "name": "福中路与彩田路路口",
+                "value": 72.294246,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.070748, 22.627546]
+            },
+            "properties": {
+                "name": "坂雪岗大道与布龙路路口",
+                "value": 104.151092,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.071177, 22.721377]
+            },
+            "properties": {
+                "name": "高尔夫大道与观光大道路口",
+                "value": 73.4254496,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.072836, 22.555371]
+            },
+            "properties": {
+                "name": "皇岗路与笋岗西路路口",
+                "value": 88.30736376,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.077103, 22.535985]
+            },
+            "properties": {
+                "name": "福田路与福华路路口",
+                "value": 79.69455908,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.081205, 22.544349]
+            },
+            "properties": {
+                "name": "华富路与振华路路口",
+                "value": 83.66658894,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.081191, 22.548853]
+            },
+            "properties": {
+                "name": "红荔路与华富路路口",
+                "value": 75.44393397,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.094792, 22.558256]
+            },
+            "properties": {
+                "name": "上步北路与八卦二路路口",
+                "value": 85.94225503,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.104288, 22.574925]
+            },
+            "properties": {
+                "name": "红岗路与Ｓ２０９清平高速出口路口",
+                "value": 80.45756577,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.104471, 22.5559]
+            },
+            "properties": {
+                "name": "笋岗西路与红岭中路路口",
+                "value": 94.00526062,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.104718, 22.540842]
+            },
+            "properties": {
+                "name": "红岭中路与红岭南路路口",
+                "value": 89.01320453,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.104687, 22.603089]
+            },
+            "properties": {
+                "name": "龙岭西路与Ｓ２０９清平高速入口路口",
+                "value": 93.3958933,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.10662, 22.624342]
+            },
+            "properties": {
+                "name": "吉华路与松联路路口",
+                "value": 101.6038282,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.112724, 22.589952]
+            },
+            "properties": {
+                "name": "红岗路与西环路路口",
+                "value": 76.06651784,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.113029, 22.569731]
+            },
+            "properties": {
+                "name": "宝岗路与梨园路路口",
+                "value": 89.43810472,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.12176, 22.680823]
+            },
+            "properties": {
+                "name": "富安大道与平吉大道路口",
+                "value": 83.42951009,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.123917, 22.64698]
+            },
+            "properties": {
+                "name": "布澜路与平吉大道路口",
+                "value": 102.1377347,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.126243, 22.695966]
+            },
+            "properties": {
+                "name": "新厦大道与平湖益民路路口",
+                "value": 101.636586,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.127826, 22.576618]
+            },
+            "properties": {
+                "name": "翠松路与太白路路口",
+                "value": 81.31148184,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.138048, 22.58172]
+            },
+            "properties": {
+                "name": "东湖路与东晓路路口",
+                "value": 72.38909002,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.138979, 22.625618]
+            },
+            "properties": {
+                "name": "布澜路与星火路路口",
+                "value": 93.92192759,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.139616, 22.60731]
+            },
+            "properties": {
+                "name": "中翠路与布沙路路口",
+                "value": 91.98157772,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.13975, 22.687122]
+            },
+            "properties": {
+                "name": "平湖大道与富安大道路口",
+                "value": 82.83446002,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.142413, 22.618699]
+            },
+            "properties": {
+                "name": "龙岗大道与宝桂路路口",
+                "value": 100.6571477,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.146282, 22.665992]
+            },
+            "properties": {
+                "name": "平安大道与良白路路口",
+                "value": 73.88835657,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.155131, 22.605402]
+            },
+            "properties": {
+                "name": "樟富路与樟富南路路口",
+                "value": 95.74161145,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.155802, 22.634811]
+            },
+            "properties": {
+                "name": "丹平快速路出口与丹平路路口",
+                "value": 83.32273296,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.206067, 22.709796]
+            },
+            "properties": {
+                "name": "盐龙大道辅道与Ｇ０４２２武深高速入口路口",
+                "value": 75.63844962,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.214827, 22.642717]
+            },
+            "properties": {
+                "name": "马六路与惠盐路路口",
+                "value": 82.76710789,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.224335, 22.660575]
+            },
+            "properties": {
+                "name": "银荷路与福桐路路口",
+                "value": 71.59928082,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.238395, 22.719533]
+            },
+            "properties": {
+                "name": "吉祥路与清林路路口",
+                "value": 81.34496314,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.252257, 22.73151]
+            },
+            "properties": {
+                "name": "龙城大道与龙平西路路口",
+                "value": 86.12949401,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.252587, 22.738105]
+            },
+            "properties": {
+                "name": "龙城大道与龙盛路路口",
+                "value": 99.51229371,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.261225, 22.733121]
+            },
+            "properties": {
+                "name": "碧新路与龙平东路路口",
+                "value": 101.6131814,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.267218, 22.708413]
+            },
+            "properties": {
+                "name": "爱南路与植物园路路口",
+                "value": 102.0473385,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.282403, 22.739726]
+            },
+            "properties": {
+                "name": "新生路与莱茵路路口",
+                "value": 80.00619295,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.292444, 22.729406]
+            },
+            "properties": {
+                "name": "同富路与鸿基路路口",
+                "value": 81.02998995,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.303831, 22.718266]
+            },
+            "properties": {
+                "name": "雅池路与深汕公路路口",
+                "value": 78.03094661,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.349121, 22.701395]
+            },
+            "properties": {
+                "name": "坪山大道与行政八路路口",
+                "value": 81.30694583,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.376967, 22.754501]
+            },
+            "properties": {
+                "name": "白石路交叉口",
+                "value": 78.39545362,
+                "level": "E",
+                "month": 202005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [114.3838, 22.736286]
+            },
+            "properties": {
+                "name": "丹梓大道与宝梓南路路口",
+                "value": 81.13575576,
+                "level": "E",
+                "month": 202005
+            }
+        }
+    ]
+}

@@ -7,9 +7,22 @@
         </div>
         <div class="card-panel-description">
           <div class="card-panel-text">
-            New Visits
+            所有节点
           </div>
-          <count-to :start-val="0" :end-val="102400" :duration="2600" class="card-panel-num" />
+          <count-to :start-val="0" :end-val="9" :duration="2600" class="card-panel-num" />
+        </div>
+      </div>
+    </el-col>
+    <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
+      <div class="card-panel" @click="handleSetLineChartData('purchases')">
+        <div class="card-panel-icon-wrapper icon-money">
+          <!-- <svg-icon icon-class="money" class-name="card-panel-icon" /> -->
+        </div>
+        <div class="card-panel-description">
+          <div class="card-panel-text">
+            区块高度
+          </div>
+          <count-to :start-val="0" :end-val="989" :duration="3200" class="card-panel-num" />
         </div>
       </div>
     </el-col>
@@ -20,35 +33,22 @@
         </div>
         <div class="card-panel-description">
           <div class="card-panel-text">
-            Messages
+            事故总数
           </div>
-          <count-to :start-val="0" :end-val="81212" :duration="3000" class="card-panel-num" />
-        </div>
-      </div>
-    </el-col>
-    <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
-      <div class="card-panel" @click="handleSetLineChartData('purchases')">
-        <div class="card-panel-icon-wrapper icon-money">
-          <svg-icon icon-class="money" class-name="card-panel-icon" />
-        </div>
-        <div class="card-panel-description">
-          <div class="card-panel-text">
-            Purchases
-          </div>
-          <count-to :start-val="0" :end-val="9280" :duration="3200" class="card-panel-num" />
+          <count-to :start-val="0" :end-val="1250" :duration="3000" class="card-panel-num" />
         </div>
       </div>
     </el-col>
     <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
       <div class="card-panel" @click="handleSetLineChartData('shoppings')">
         <div class="card-panel-icon-wrapper icon-shopping">
-          <svg-icon icon-class="shopping" class-name="card-panel-icon" />
+          <!-- <svg-icon icon-class="shopping" class-name="card-panel-icon" /> -->
         </div>
         <div class="card-panel-description">
           <div class="card-panel-text">
-            Shoppings
+            用户数量
           </div>
-          <count-to :start-val="0" :end-val="13600" :duration="3600" class="card-panel-num" />
+          <count-to :start-val="0" :end-val="1360" :duration="3600" class="card-panel-num" />
         </div>
       </div>
     </el-col>
@@ -85,7 +85,7 @@ export default {
     position: relative;
     overflow: hidden;
     color: #666;
-    background: #fff;
+    background: #d2d5e5; //#fff;
     box-shadow: 4px 4px 40px rgba(0, 0, 0, .05);
     border-color: rgba(0, 0, 0, .05);
 

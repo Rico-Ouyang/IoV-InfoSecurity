@@ -26,6 +26,7 @@
 </template>
 
 <script>
+// 面包屑下面的标签栏
 import ScrollPane from './ScrollPane'
 import path from 'path'
 
@@ -199,11 +200,12 @@ export default {
 
 <style lang="scss" scoped>
 .tags-view-container {
-  height: 34px;
+  height: 40px;
   width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #d8dce5;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 3px 0 rgba(0, 0, 0, .04);
+  background: #445492;
+  border-bottom: 1px solid;
+  box-shadow: 0 1px 3px 0 rgba(255, 255, 255, .12), 0 0 3px 0 rgba(255, 255, 255, .04);
+  // 标签的样式
   .tags-view-wrapper {
     .tags-view-item {
       display: inline-block;
@@ -212,12 +214,13 @@ export default {
       height: 26px;
       line-height: 26px;
       border: 1px solid #d8dce5;
+      // 标签的字体颜色
       color: #495060;
-      background: #fff;
+      background: #c7ccdee1;
       padding: 0 8px;
       font-size: 12px;
       margin-left: 5px;
-      margin-top: 4px;
+      margin-top: 5px;
       &:first-of-type {
         margin-left: 15px;
       }
@@ -225,12 +228,12 @@ export default {
         margin-right: 15px;
       }
       &.active {
-        background-color: #42b983;
-        color: #fff;
-        border-color: #42b983;
+        background-color: #8f98be;// #42b983;
+        color: #38d3ee;
+        border-color: #c7ccde;
         &::before {
           content: '';
-          background: #fff;
+          background: #8f98be;
           display: inline-block;
           width: 8px;
           height: 8px;
@@ -243,7 +246,7 @@ export default {
   }
   .contextmenu {
     margin: 0;
-    background: #fff;
+    background: rgb(255, 255, 255);
     z-index: 3000;
     position: absolute;
     list-style-type: none;

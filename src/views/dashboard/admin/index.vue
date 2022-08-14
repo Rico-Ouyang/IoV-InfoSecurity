@@ -1,9 +1,11 @@
 <template>
-  <div class="dashboard-editor-container">
+  <div class="dashboard-editor-container" style="background-color: #24347c">
 
-    <panel-group @handleSetLineChartData="handleSetLineChartData" />
+    <div class="chart-wrapper">
+      <panel-group @handleSetLineChartData="handleSetLineChartData" />
+    </div>
 
-    <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
+    <el-row style="padding:0;margin-bottom:32px;">
       <line-marker :chart-data="lineChartData" />
     </el-row>
 
@@ -20,8 +22,16 @@
       </el-col>
     </el-row>
 
+    
+
     <el-row :gutter="8">
-      <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
+      <el-col :span="24" style="margin-bottom:30px;">
+        <div class="chart-wrapper">
+          <my-map></my-map>
+        </div>
+      </el-col>
+      
+      <!-- <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
 
       </el-col>
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
@@ -29,8 +39,11 @@
       </el-col>
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
 
-      </el-col>
+      </el-col> -->
     </el-row>
+
+    <!-- <map-map-2></map-map-2> -->
+
   </div>
 </template>
 
@@ -39,6 +52,9 @@ import PanelGroup from './components/PanelGroup'
 import PieChart from './components/PieChart'
 import BarChart from './components/BarChart'
 import LineMarker from './components/LineMarker'
+import MyMap from './components/MyMap.vue'
+import MapMap from './components/Map1.vue'
+// import MapMap2 from './components/Map2.vue'
 
 
 const lineChartData = {
@@ -66,7 +82,10 @@ export default {
     PanelGroup,
     LineMarker,
     PieChart,
-    BarChart
+    BarChart,
+    MyMap,
+    MapMap,
+    // MapMap2
   },
   data() {
     return {
@@ -84,11 +103,12 @@ export default {
 <style lang="scss" scoped>
 .dashboard-editor-container {
   padding: 32px;
-  background-color: rgb(240, 242, 245);
+  // background-color: rgb(240, 242, 245);
+  // background-color: '#24347c'; //'#243382', //'#1d2870',
   position: relative;
 
   .chart-wrapper {
-    background: #fff;
+    background: #24347c;
     padding: 16px 16px 0;
     margin-bottom: 32px;
   }

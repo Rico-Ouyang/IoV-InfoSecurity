@@ -6,8 +6,8 @@
 import echarts from 'echarts'
 import resize from './mixins/resize'
 
-import { queryDynamicAccidentsStatistics } from '@/api/statics'
-// import { queryDynamicAccidentsStatistics } from '@/api/statics2'
+import { queryDynamicAccidentsStatics } from '@api/statics'
+// import { queryDynamicAccidentsStatics } from '@api/statics2'
 
 export default {
   mixins: [resize],
@@ -26,60 +26,16 @@ export default {
     },
     height: {
       type: String,
-      default: 'calc(55vh - 25px)'
+      default: 'calc(50vh - 50px)'
     }
   },
   data() {
     return {
-      dataZoom_start: 0,
-      dataZoom_end: 100,
-      data: [],
-      date: '',
-      chart: null,
-      // xData: ['13:00', '13:05', '13:10', '13:15', '13:20', '13:25', '13:30', '13:35', '13:40', '13:45', '13:50', '13:55', '14:00', '14:05', '14:10', '14:15', '14:20', '14:25', '14:30', '14:35', '14:40', '14:45', '14:50', '14:55'],
-      // yData: {
-      //   zhuiweiData: [220, 182, 191, 134, 150, 120, 11, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150, 120, 110, 125, 145, 122, 165, 122],
-      //   zhixingData: [120, 110, 125, 145, 122, 165, 122, 220, 0, 191, 134, 150, 12, 110, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150],
-      //   chaocheData: [220, 182, 125, 145, 122, 191, 134, 150, 120, 110, 165, 122, 220, 182, 125, 145, 122, 191, 134, 150, 120, 110, 165, 122],
-      //   qitaDate: [12, 11, 12, 15, 22, 15, 12, 20, 0, 11, 13, 50, 1, 10, 15, 45, 22, 15, 22, 20, 82, 91, 34, 50]
-      // }
-      xData: [],
-      yData: {
-        zhuiweiData: [],
-        zhixingData: [],
-        chaocheData: [],
-        qitaDate: []
-      },
-      xData2: [],
-      yData2: {
-        zhuiweiData: [],
-        zhixingData: [],
-        chaocheData: [],
-        qitaDate: []
-      }
-    }
-  },
-  watch: {
-    'xData2': function (val) {
-      if (this.xData.length > 50) {
-        // this.xData.shift() // 移除第一个元素
-        // this.yData.chaocheData.shift()
-        // this.yData.zhixingData.shift()
-        // this.yData.zhuiweiData.shift()
-        // this.yData.qitaDate.shift()
-      }
-      this.initChart()
-      this.times()
-    },
-    'yData2': function (val) {
-      this.initChart()
-      this.times()
+      chart: null
     }
   },
   mounted() {
-    this.chart = echarts.init(document.getElementById(this.id))
     this.initChart()
-    this.updateData()
   },
   beforeDestroy() {
     if (!this.chart) {
@@ -87,50 +43,16 @@ export default {
     }
     this.chart.dispose()
     this.chart = null
-    clearTimeout(this.times)
   },
   methods: {
-    // 动态获取xData和yData
-    updateData() {
-      if (this.xData.length > 20 && this.xData.length < 30) {
-        this.dataZoom_start = 50
-      } 
-      if (this.xData.length > 30) {
-        this.dataZoom_start = 75
-      }
-
-      queryDynamicAccidentsStatistics().then( response => {
-        if (response != '') {
-          this.data = response.data
-          console.log(this.data)
-          // this.total = response.data.total
-          // 用于显示几号的事故统计
-          this.date = this.data.time.substring(0, 10)
-          // console.log(this.date.slice(11))
-          this.yData2.chaocheData.push( this.data.超车事故 )
-          this.yData2.zhixingData.push( this.data.直行事故 )
-          this.yData2.zhuiweiData.push( this.data.追尾事故 )
-          this.yData2.qitaDate.push( this.data.其他事故 )
-          this.xData2.push( this.data.time.substring(11))
-          this.yData = this.yData2
-          this.xData = this.xData2
-        }
-      })
-    },
-    // 定时器，数据发生变化时调用
-    times(){
-      return setTimeout(()=>{
-				this.updateData()
-        // console.log(this.xData, this.yData)
-			}, 100 * 1000)
-		},
     initChart() {
-      // this.chart = echarts.init(document.getElementById(this.id))
-      var option = {
+      this.chart = echarts.init(document.getElementById(this.id))
+
+      this.chart.setOption({
         backgroundColor: '#24347c', //'#243382', //'#1d2870',
         title: {
           top: 20,
-          text: this.date + ' 交通事故统计',
+          text: '交通事故统计',
           textStyle: {
             fontWeight: 'normal',
             fontSize: 16,
@@ -138,7 +60,7 @@ export default {
           },
           left: '1%'
         },
-        // 鼠标选中数据指示浮窗
+        // 选中指示
         tooltip: {
           trigger: 'axis',
           axisPointer: {
@@ -147,9 +69,8 @@ export default {
             }
           }
         },
-        // 右上角图注
         legend: {
-          top: 20,
+          top: 30,
           icon: 'rect',
           itemWidth: 15,
           itemHeight: 5,
@@ -190,7 +111,7 @@ export default {
           axisLabel: {
             interval: 0
           },
-          data: this.xData
+          data: ['13:00', '13:05', '13:10', '13:15', '13:20', '13:25', '13:30', '13:35', '13:40', '13:45', '13:50', '13:55', '14:00', '14:05', '14:10', '14:15', '14:20', '14:25', '14:30', '14:35', '14:40', '14:45', '14:50', '14:55']
         }],
         // y轴样式
         yAxis: [{
@@ -226,8 +147,8 @@ export default {
             0
           ],
           bottom: 30,
-          start: this.dataZoom_start,
-          end: this.dataZoom_end,
+          start: 10,
+          end: 80,
           handleIcon: 'path://M306.1,413c0,2.2-1.8,4-4,4h-59.8c-2.2,0-4-1.8-4-4V200.8c0-2.2,1.8-4,4-4h59.8c2.2,0,4,1.8,4,4V413z',
           handleSize: '110%',
           handleStyle: {
@@ -279,7 +200,7 @@ export default {
 
             }
           },
-          data: this.yData.zhuiweiData
+          data: [220, 182, 191, 134, 150, 120, 11, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150, 120, 110, 125, 145, 122, 165, 122]
         }, {
           name: '直行事故',
           type: 'line',
@@ -310,9 +231,10 @@ export default {
               color: 'rgb(0,136,212)',
               borderColor: 'rgba(0,136,212,0.2)',
               borderWidth: 12
+
             }
           },
-          data: this.yData.zhixingData
+          data: [120, 110, 125, 145, 122, 165, 122, 220, 0, 191, 134, 150, 12, 110, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150]
         }, {
           name: '超车事故',
           type: 'line',
@@ -345,7 +267,7 @@ export default {
               borderWidth: 12
             }
           },
-          data: this.yData.chaocheData
+          data: [220, 182, 125, 145, 122, 191, 134, 150, 120, 110, 165, 122, 220, 182, 125, 145, 122, 191, 134, 150, 120, 110, 165, 122]
         }, {
           name: '其他事故',
           type: 'line',
@@ -378,10 +300,9 @@ export default {
               borderWidth: 12
             }
           },
-          data: this.yData.qitaDate
+          data: [12, 11, 12, 15, 22, 15, 12, 20, 0, 11, 13, 50, 1, 10, 15, 45, 22, 15, 22, 20, 82, 91, 34, 50]
         }]
-      }
-      this.chart.setOption(option, true)
+      })
     }
   }
 }
