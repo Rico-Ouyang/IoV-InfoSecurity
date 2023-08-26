@@ -42,7 +42,7 @@
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
-![image-20230826221422825](C:\Users\hp-pc\AppData\Roaming\Typora\typora-user-images\image-20230826221422825.png)
+![image-20230826221422825](https://github.com/Rico-Ouyang/IoV-InfoSecurity/public/home.png)
 
 ### Flatlogic
 
