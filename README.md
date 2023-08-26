@@ -40,7 +40,7 @@
 
 
 <p align="center">
-  <img width="900" src="https://github.com/Rico-Ouyang/IoV-InfoSecurity/public/home.png">
+  <img width="900" src="https://github.com/Rico-Ouyang/IoV-InfoSecurity/tree/master/public/home.png">
 </p>
 
 
